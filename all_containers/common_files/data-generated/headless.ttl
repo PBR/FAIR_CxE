@@ -1,0 +1,32 @@
+#@base <http://localhost:3030/wur/fair-example> .
+@prefix ppeo: <http://purl.org/ppeo/PPEO.owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+#@prefix wur_inst: <http://wur.fair/pbr/dataset/inst/> .
+#@prefix wur_inv: <http://wur.fair/pbr/dataset/inv/> .
+
+<#institute/96549626> a ppeo:institution ;
+    ppeo:hasLocation <#location/57285852> ;
+    ppeo:hasName "Laboratory of Plant Breeding, Wageningen University and Research" .
+
+<#investigation/WUR_inv_CE2020> a ppeo:investigation ;
+    ppeo:hasAssociatedPublication "https://library.wur.nl/WebQuery/wurpubs/fulltext/240586" ;
+    ppeo:hasDescription "FAIRified, partial data from the 2012 thesis of Paula Ximena Hurtado Lopez" ;
+    ppeo:hasIdentifier "WUR_inv_CE2020" ;
+    ppeo:hasLicense "CC-BY 4.0" ;
+    ppeo:hasMIAPPEVersion "1.1"^^xsd:float ;
+    ppeo:hasName "Investigating genotype by environment and QTL by environment interactions for developmental traits in potato" ;
+    ppeo:hasPart <#study/WUR_inv_CE2020_1999NL>,
+        <#study/WUR_inv_CE2020_2003VE>,
+        <#study/WUR_inv_CE2020_2004Fin>,
+        <#study/WUR_inv_CE2020_2005Fin>,
+        <#study/WUR_inv_CE2020_2010ET> ;
+    ppeo:hasPersonWithRole <#person_role/WUR_inv_CE2020_2010ET_coodinator>,
+        <#person_role/WUR_inv_CE2020_2010ET_corresponding_author>,
+        <#person_role/WUR_inv_CE2020_2010ET_data_author>,
+        <#person_role/WUR_inv_CE2020_2010ET_scientist>,
+        <#person_role/WUR_inv_CE2020_2010ET_scientist__coordinator> ;
+    ppeo:hasPublicReleaseDate "2020-01-01"^^xsd:date ;
+    ppeo:hasSubmissionDate "2020-01-01"^^xsd:date .

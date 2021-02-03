@@ -1,0 +1,2019 @@
+@prefix aemet: <http://aemet.linkeddata.es/ontology/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ssn: <http://purl.oclc.org/NET/ssnx/ssn#> .
+@prefix w3ctime: <http://www.w3.org/2006/time#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-06-13_13.3" ;
+    aemet:observedInInterval "2004-06-13"^^xsd:date ;
+    aemet:valueOfObservedData "13.3"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-06-19_20.56" ;
+    aemet:observedInInterval "2004-06-19"^^xsd:date ;
+    aemet:valueOfObservedData "20.56"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-10-08_10.61" ;
+    aemet:observedInInterval "2004-10-08"^^xsd:date ;
+    aemet:valueOfObservedData "10.61"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-07-19_17.4" ;
+    aemet:observedInInterval "2004-07-19"^^xsd:date ;
+    aemet:valueOfObservedData "17.4"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-09-02_14.35" ;
+    aemet:observedInInterval "2004-09-02"^^xsd:date ;
+    aemet:valueOfObservedData "14.35"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-10-13_10.09" ;
+    aemet:observedInInterval "2004-10-13"^^xsd:date ;
+    aemet:valueOfObservedData "10.09"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-08-22_13.7" ;
+    aemet:observedInInterval "2004-08-22"^^xsd:date ;
+    aemet:valueOfObservedData "13.7"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-08-22_15.50" ;
+    aemet:observedInInterval "2004-08-22"^^xsd:date ;
+    aemet:valueOfObservedData "15.5"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-09-07_13.83" ;
+    aemet:observedInInterval "2004-09-07"^^xsd:date ;
+    aemet:valueOfObservedData "13.83"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-08-21_15.1" ;
+    aemet:observedInInterval "2004-08-21"^^xsd:date ;
+    aemet:valueOfObservedData "15.1"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-07-21_14.7" ;
+    aemet:observedInInterval "2004-07-21"^^xsd:date ;
+    aemet:valueOfObservedData "14.7"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-10-28_8.53" ;
+    aemet:observedInInterval "2004-10-28"^^xsd:date ;
+    aemet:valueOfObservedData "8.53"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-07-24_18.49" ;
+    aemet:observedInInterval "2004-07-24"^^xsd:date ;
+    aemet:valueOfObservedData "18.49"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-08-10_17.2" ;
+    aemet:observedInInterval "2004-08-10"^^xsd:date ;
+    aemet:valueOfObservedData "17.2"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-08-12_12.9" ;
+    aemet:observedInInterval "2004-08-12"^^xsd:date ;
+    aemet:valueOfObservedData "12.9"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-08-06_17.17" ;
+    aemet:observedInInterval "2004-08-06"^^xsd:date ;
+    aemet:valueOfObservedData "17.17"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-08-19_12.6" ;
+    aemet:observedInInterval "2004-08-19"^^xsd:date ;
+    aemet:valueOfObservedData "12.6"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-10-25_8.84" ;
+    aemet:observedInInterval "2004-10-25"^^xsd:date ;
+    aemet:valueOfObservedData "8.84"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-06-03_12.2" ;
+    aemet:observedInInterval "2004-06-03"^^xsd:date ;
+    aemet:valueOfObservedData "12.2"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-06-02_10.2" ;
+    aemet:observedInInterval "2004-06-02"^^xsd:date ;
+    aemet:valueOfObservedData "10.2"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-09-17_5.5" ;
+    aemet:observedInInterval "2004-09-17"^^xsd:date ;
+    aemet:valueOfObservedData "5.5"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-08-31_14.56" ;
+    aemet:observedInInterval "2004-08-31"^^xsd:date ;
+    aemet:valueOfObservedData "14.56"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-09-23_12.17" ;
+    aemet:observedInInterval "2004-09-23"^^xsd:date ;
+    aemet:valueOfObservedData "12.17"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-06-09_8.9" ;
+    aemet:observedInInterval "2004-06-09"^^xsd:date ;
+    aemet:valueOfObservedData "8.9"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-09-03_14.3" ;
+    aemet:observedInInterval "2004-09-03"^^xsd:date ;
+    aemet:valueOfObservedData "14.3"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-06-07_7.4" ;
+    aemet:observedInInterval "2004-06-07"^^xsd:date ;
+    aemet:valueOfObservedData "7.4"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-10-30_8.33" ;
+    aemet:observedInInterval "2004-10-30"^^xsd:date ;
+    aemet:valueOfObservedData "8.33"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-06-01_19.71" ;
+    aemet:observedInInterval "2004-06-01"^^xsd:date ;
+    aemet:valueOfObservedData "19.71"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-09-26_9" ;
+    aemet:observedInInterval "2004-09-26"^^xsd:date ;
+    aemet:valueOfObservedData "9.0"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-08-04_19.1" ;
+    aemet:observedInInterval "2004-08-04"^^xsd:date ;
+    aemet:valueOfObservedData "19.1"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-08-24_8.7" ;
+    aemet:observedInInterval "2004-08-24"^^xsd:date ;
+    aemet:valueOfObservedData "8.7"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-07-03_20.20" ;
+    aemet:observedInInterval "2004-07-03"^^xsd:date ;
+    aemet:valueOfObservedData "20.2"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-08-05_17.27" ;
+    aemet:observedInInterval "2004-08-05"^^xsd:date ;
+    aemet:valueOfObservedData "17.27"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-07-16_19.23" ;
+    aemet:observedInInterval "2004-07-16"^^xsd:date ;
+    aemet:valueOfObservedData "19.23"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-07-14_19.41" ;
+    aemet:observedInInterval "2004-07-14"^^xsd:date ;
+    aemet:valueOfObservedData "19.41"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-09-19_10.2" ;
+    aemet:observedInInterval "2004-09-19"^^xsd:date ;
+    aemet:valueOfObservedData "10.2"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-08-31_15.9" ;
+    aemet:observedInInterval "2004-08-31"^^xsd:date ;
+    aemet:valueOfObservedData "15.9"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-07-30_17.8" ;
+    aemet:observedInInterval "2004-07-30"^^xsd:date ;
+    aemet:valueOfObservedData "17.8"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-09-28_11.65" ;
+    aemet:observedInInterval "2004-09-28"^^xsd:date ;
+    aemet:valueOfObservedData "11.65"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-08-16_16.13" ;
+    aemet:observedInInterval "2004-08-16"^^xsd:date ;
+    aemet:valueOfObservedData "16.13"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-09-22_12.27" ;
+    aemet:observedInInterval "2004-09-22"^^xsd:date ;
+    aemet:valueOfObservedData "12.27"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:WeatherStation ;
+    aemet:stationName "Holeta station" ;
+    geo:location [ geo:alt "2400"^^xsd:float ;
+            geo:lat "9.12"^^xsd:float ;
+            geo:long "38"^^xsd:float ;
+            geo:type geo:Point ] .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-06-20_20.56" ;
+    aemet:observedInInterval "2004-06-20"^^xsd:date ;
+    aemet:valueOfObservedData "20.56"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-07-01_16.5" ;
+    aemet:observedInInterval "2004-07-01"^^xsd:date ;
+    aemet:valueOfObservedData "16.5"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-09-25_10.4" ;
+    aemet:observedInInterval "2004-09-25"^^xsd:date ;
+    aemet:valueOfObservedData "10.4"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-06-20_13" ;
+    aemet:observedInInterval "2004-06-20"^^xsd:date ;
+    aemet:valueOfObservedData "13.0"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-07-17_15.3" ;
+    aemet:observedInInterval "2004-07-17"^^xsd:date ;
+    aemet:valueOfObservedData "15.3"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-08-10_16.75" ;
+    aemet:observedInInterval "2004-08-10"^^xsd:date ;
+    aemet:valueOfObservedData "16.75"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-10-02_11.24" ;
+    aemet:observedInInterval "2004-10-02"^^xsd:date ;
+    aemet:valueOfObservedData "11.24"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-06-25_20.51" ;
+    aemet:observedInInterval "2004-06-25"^^xsd:date ;
+    aemet:valueOfObservedData "20.51"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-06-16_20.51" ;
+    aemet:observedInInterval "2004-06-16"^^xsd:date ;
+    aemet:valueOfObservedData "20.51"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-07-31_17.9" ;
+    aemet:observedInInterval "2004-07-31"^^xsd:date ;
+    aemet:valueOfObservedData "17.9"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-07-13_15.9" ;
+    aemet:observedInInterval "2004-07-13"^^xsd:date ;
+    aemet:valueOfObservedData "15.9"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-06-06_20.06" ;
+    aemet:observedInInterval "2004-06-06"^^xsd:date ;
+    aemet:valueOfObservedData "20.06"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-06-05_20.00" ;
+    aemet:observedInInterval "2004-06-05"^^xsd:date ;
+    aemet:valueOfObservedData "20.0"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-06-12_20.38" ;
+    aemet:observedInInterval "2004-06-12"^^xsd:date ;
+    aemet:valueOfObservedData "20.38"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-10-26_8.74" ;
+    aemet:observedInInterval "2004-10-26"^^xsd:date ;
+    aemet:valueOfObservedData "8.74"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-08-17_16.02" ;
+    aemet:observedInInterval "2004-08-17"^^xsd:date ;
+    aemet:valueOfObservedData "16.02"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-07-26_18.29" ;
+    aemet:observedInInterval "2004-07-26"^^xsd:date ;
+    aemet:valueOfObservedData "18.29"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-10-05_7.9" ;
+    aemet:observedInInterval "2004-10-05"^^xsd:date ;
+    aemet:valueOfObservedData "7.9"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-09-29_8.7" ;
+    aemet:observedInInterval "2004-09-29"^^xsd:date ;
+    aemet:valueOfObservedData "8.7"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-09-23_9.2" ;
+    aemet:observedInInterval "2004-09-23"^^xsd:date ;
+    aemet:valueOfObservedData "9.2"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-07-04_20.14" ;
+    aemet:observedInInterval "2004-07-04"^^xsd:date ;
+    aemet:valueOfObservedData "20.14"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-08-08_16.96" ;
+    aemet:observedInInterval "2004-08-08"^^xsd:date ;
+    aemet:valueOfObservedData "16.96"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-10-03_4.5" ;
+    aemet:observedInInterval "2004-10-03"^^xsd:date ;
+    aemet:valueOfObservedData "4.5"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-07-22_18.68" ;
+    aemet:observedInInterval "2004-07-22"^^xsd:date ;
+    aemet:valueOfObservedData "18.68"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-08-12_16.55" ;
+    aemet:observedInInterval "2004-08-12"^^xsd:date ;
+    aemet:valueOfObservedData "16.55"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-09-17_12.79" ;
+    aemet:observedInInterval "2004-09-17"^^xsd:date ;
+    aemet:valueOfObservedData "12.79"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-09-12_13.31" ;
+    aemet:observedInInterval "2004-09-12"^^xsd:date ;
+    aemet:valueOfObservedData "13.31"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-10-06_8.7" ;
+    aemet:observedInInterval "2004-10-06"^^xsd:date ;
+    aemet:valueOfObservedData "8.7"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-06-22_20.56" ;
+    aemet:observedInInterval "2004-06-22"^^xsd:date ;
+    aemet:valueOfObservedData "20.56"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-09-04_14.14" ;
+    aemet:observedInInterval "2004-09-04"^^xsd:date ;
+    aemet:valueOfObservedData "14.14"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-06-04_12" ;
+    aemet:observedInInterval "2004-06-04"^^xsd:date ;
+    aemet:valueOfObservedData "12.0"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-08-09_17" ;
+    aemet:observedInInterval "2004-08-09"^^xsd:date ;
+    aemet:valueOfObservedData "17.0"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-08-08_20.1" ;
+    aemet:observedInInterval "2004-08-08"^^xsd:date ;
+    aemet:valueOfObservedData "20.1"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-10-07_10.72" ;
+    aemet:observedInInterval "2004-10-07"^^xsd:date ;
+    aemet:valueOfObservedData "10.72"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-08-07_17.07" ;
+    aemet:observedInInterval "2004-08-07"^^xsd:date ;
+    aemet:valueOfObservedData "17.07"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-08-26_8.7" ;
+    aemet:observedInInterval "2004-08-26"^^xsd:date ;
+    aemet:valueOfObservedData "8.7"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-08-03_18.2" ;
+    aemet:observedInInterval "2004-08-03"^^xsd:date ;
+    aemet:valueOfObservedData "18.2"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-09-09_7.8" ;
+    aemet:observedInInterval "2004-09-09"^^xsd:date ;
+    aemet:valueOfObservedData "7.8"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-09-15_8.5" ;
+    aemet:observedInInterval "2004-09-15"^^xsd:date ;
+    aemet:valueOfObservedData "8.5"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-09-27_11.75" ;
+    aemet:observedInInterval "2004-09-27"^^xsd:date ;
+    aemet:valueOfObservedData "11.75"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-09-13_8.5" ;
+    aemet:observedInInterval "2004-09-13"^^xsd:date ;
+    aemet:valueOfObservedData "8.5"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-09-21_10.6" ;
+    aemet:observedInInterval "2004-09-21"^^xsd:date ;
+    aemet:valueOfObservedData "10.6"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-07-26_18" ;
+    aemet:observedInInterval "2004-07-26"^^xsd:date ;
+    aemet:valueOfObservedData "18.0"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-07-09_19.80" ;
+    aemet:observedInInterval "2004-07-09"^^xsd:date ;
+    aemet:valueOfObservedData "19.8"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-07-28_15.8" ;
+    aemet:observedInInterval "2004-07-28"^^xsd:date ;
+    aemet:valueOfObservedData "15.8"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-09-08_13.72" ;
+    aemet:observedInInterval "2004-09-08"^^xsd:date ;
+    aemet:valueOfObservedData "13.72"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-10-18_9.57" ;
+    aemet:observedInInterval "2004-10-18"^^xsd:date ;
+    aemet:valueOfObservedData "9.57"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-06-27_16.4" ;
+    aemet:observedInInterval "2004-06-27"^^xsd:date ;
+    aemet:valueOfObservedData "16.4"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-09-24_12.06" ;
+    aemet:observedInInterval "2004-09-24"^^xsd:date ;
+    aemet:valueOfObservedData "12.06"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-06-16_9.9" ;
+    aemet:observedInInterval "2004-06-16"^^xsd:date ;
+    aemet:valueOfObservedData "9.9"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-09-20_11.5" ;
+    aemet:observedInInterval "2004-09-20"^^xsd:date ;
+    aemet:valueOfObservedData "11.5"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-09-25_11.96" ;
+    aemet:observedInInterval "2004-09-25"^^xsd:date ;
+    aemet:valueOfObservedData "11.96"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-06-11_10.7" ;
+    aemet:observedInInterval "2004-06-11"^^xsd:date ;
+    aemet:valueOfObservedData "10.7"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-06-04_19.93" ;
+    aemet:observedInInterval "2004-06-04"^^xsd:date ;
+    aemet:valueOfObservedData "19.93"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-07-21_18.77" ;
+    aemet:observedInInterval "2004-07-21"^^xsd:date ;
+    aemet:valueOfObservedData "18.77"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-09-21_12.37" ;
+    aemet:observedInInterval "2004-09-21"^^xsd:date ;
+    aemet:valueOfObservedData "12.37"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-08-09_16.86" ;
+    aemet:observedInInterval "2004-08-09"^^xsd:date ;
+    aemet:valueOfObservedData "16.86"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-06-26_20.49" ;
+    aemet:observedInInterval "2004-06-26"^^xsd:date ;
+    aemet:valueOfObservedData "20.49"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-08-24_15.29" ;
+    aemet:observedInInterval "2004-08-24"^^xsd:date ;
+    aemet:valueOfObservedData "15.29"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-06-21_20.56" ;
+    aemet:observedInInterval "2004-06-21"^^xsd:date ;
+    aemet:valueOfObservedData "20.56"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-09-16_6.7" ;
+    aemet:observedInInterval "2004-09-16"^^xsd:date ;
+    aemet:valueOfObservedData "6.7"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-06-19_11.1" ;
+    aemet:observedInInterval "2004-06-19"^^xsd:date ;
+    aemet:valueOfObservedData "11.1"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-06-18_9.4" ;
+    aemet:observedInInterval "2004-06-18"^^xsd:date ;
+    aemet:valueOfObservedData "9.4"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-08-13_16.44" ;
+    aemet:observedInInterval "2004-08-13"^^xsd:date ;
+    aemet:valueOfObservedData "16.44"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-07-08_12.8" ;
+    aemet:observedInInterval "2004-07-08"^^xsd:date ;
+    aemet:valueOfObservedData "12.8"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-10-06_10.82" ;
+    aemet:observedInInterval "2004-10-06"^^xsd:date ;
+    aemet:valueOfObservedData "10.82"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-07-11_15.5" ;
+    aemet:observedInInterval "2004-07-11"^^xsd:date ;
+    aemet:valueOfObservedData "15.5"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-09-18_7.2" ;
+    aemet:observedInInterval "2004-09-18"^^xsd:date ;
+    aemet:valueOfObservedData "7.2"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-08-18_11.9" ;
+    aemet:observedInInterval "2004-08-18"^^xsd:date ;
+    aemet:valueOfObservedData "11.9"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-08-29_14.76" ;
+    aemet:observedInInterval "2004-08-29"^^xsd:date ;
+    aemet:valueOfObservedData "14.76"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-06-03_19.86" ;
+    aemet:observedInInterval "2004-06-03"^^xsd:date ;
+    aemet:valueOfObservedData "19.86"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-09-07_10.2" ;
+    aemet:observedInInterval "2004-09-07"^^xsd:date ;
+    aemet:valueOfObservedData "10.2"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-10-19_9.47" ;
+    aemet:observedInInterval "2004-10-19"^^xsd:date ;
+    aemet:valueOfObservedData "9.47"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-09-01_14.45" ;
+    aemet:observedInInterval "2004-09-01"^^xsd:date ;
+    aemet:valueOfObservedData "14.45"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-06-06_8.4" ;
+    aemet:observedInInterval "2004-06-06"^^xsd:date ;
+    aemet:valueOfObservedData "8.4"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-07-04_15.5" ;
+    aemet:observedInInterval "2004-07-04"^^xsd:date ;
+    aemet:valueOfObservedData "15.5"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-08-20_13.4" ;
+    aemet:observedInInterval "2004-08-20"^^xsd:date ;
+    aemet:valueOfObservedData "13.4"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-08-02_16.9" ;
+    aemet:observedInInterval "2004-08-02"^^xsd:date ;
+    aemet:valueOfObservedData "16.9"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-10-04_7" ;
+    aemet:observedInInterval "2004-10-04"^^xsd:date ;
+    aemet:valueOfObservedData "7.0"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-08-02_17.58" ;
+    aemet:observedInInterval "2004-08-02"^^xsd:date ;
+    aemet:valueOfObservedData "17.58"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-09-11_9" ;
+    aemet:observedInInterval "2004-09-11"^^xsd:date ;
+    aemet:valueOfObservedData "9.0"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-07-11_19.65" ;
+    aemet:observedInInterval "2004-07-11"^^xsd:date ;
+    aemet:valueOfObservedData "19.65"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-09-24_9.5" ;
+    aemet:observedInInterval "2004-09-24"^^xsd:date ;
+    aemet:valueOfObservedData "9.5"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-08-15_9" ;
+    aemet:observedInInterval "2004-08-15"^^xsd:date ;
+    aemet:valueOfObservedData "9.0"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-07-20_18.87" ;
+    aemet:observedInInterval "2004-07-20"^^xsd:date ;
+    aemet:valueOfObservedData "18.87"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-09-08_6.9" ;
+    aemet:observedInInterval "2004-09-08"^^xsd:date ;
+    aemet:valueOfObservedData "6.9"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-08-05_17.9" ;
+    aemet:observedInInterval "2004-08-05"^^xsd:date ;
+    aemet:valueOfObservedData "17.9"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-07-05_20.08" ;
+    aemet:observedInInterval "2004-07-05"^^xsd:date ;
+    aemet:valueOfObservedData "20.08"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-07-13_19.49" ;
+    aemet:observedInInterval "2004-07-13"^^xsd:date ;
+    aemet:valueOfObservedData "19.49"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-07-18_19.05" ;
+    aemet:observedInInterval "2004-07-18"^^xsd:date ;
+    aemet:valueOfObservedData "19.05"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-08-29_13.6" ;
+    aemet:observedInInterval "2004-08-29"^^xsd:date ;
+    aemet:valueOfObservedData "13.6"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-08-16_10.2" ;
+    aemet:observedInInterval "2004-08-16"^^xsd:date ;
+    aemet:valueOfObservedData "10.2"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-08-15_16.23" ;
+    aemet:observedInInterval "2004-08-15"^^xsd:date ;
+    aemet:valueOfObservedData "16.23"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-07-30_17.89" ;
+    aemet:observedInInterval "2004-07-30"^^xsd:date ;
+    aemet:valueOfObservedData "17.89"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-07-24_17.7" ;
+    aemet:observedInInterval "2004-07-24"^^xsd:date ;
+    aemet:valueOfObservedData "17.7"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-10-31_8.22" ;
+    aemet:observedInInterval "2004-10-31"^^xsd:date ;
+    aemet:valueOfObservedData "8.22"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-07-09_14.6" ;
+    aemet:observedInInterval "2004-07-09"^^xsd:date ;
+    aemet:valueOfObservedData "14.6"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-09-10_13.52" ;
+    aemet:observedInInterval "2004-09-10"^^xsd:date ;
+    aemet:valueOfObservedData "13.52"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-10-01_11.34" ;
+    aemet:observedInInterval "2004-10-01"^^xsd:date ;
+    aemet:valueOfObservedData "11.34"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-07-03_16.6" ;
+    aemet:observedInInterval "2004-07-03"^^xsd:date ;
+    aemet:valueOfObservedData "16.6"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-10-24_8.95" ;
+    aemet:observedInInterval "2004-10-24"^^xsd:date ;
+    aemet:valueOfObservedData "8.95"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-08-26_15.08" ;
+    aemet:observedInInterval "2004-08-26"^^xsd:date ;
+    aemet:valueOfObservedData "15.08"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-06-02_19.79" ;
+    aemet:observedInInterval "2004-06-02"^^xsd:date ;
+    aemet:valueOfObservedData "19.79"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-08-01_18.3" ;
+    aemet:observedInInterval "2004-08-01"^^xsd:date ;
+    aemet:valueOfObservedData "18.3"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:WeatherStation ;
+    aemet:stationName "Merida station" ;
+    geo:location [ geo:alt "2200"^^xsd:float ;
+            geo:lat "8.6"^^xsd:float ;
+            geo:long "-71.13"^^xsd:float ;
+            geo:type geo:Point ] .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-10-09_10.51" ;
+    aemet:observedInInterval "2004-10-09"^^xsd:date ;
+    aemet:valueOfObservedData "10.51"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-06-28_20.43" ;
+    aemet:observedInInterval "2004-06-28"^^xsd:date ;
+    aemet:valueOfObservedData "20.43"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-10-16_9.78" ;
+    aemet:observedInInterval "2004-10-16"^^xsd:date ;
+    aemet:valueOfObservedData "9.78"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-09-06_13.1" ;
+    aemet:observedInInterval "2004-09-06"^^xsd:date ;
+    aemet:valueOfObservedData "13.1"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-09-01_18.1" ;
+    aemet:observedInInterval "2004-09-01"^^xsd:date ;
+    aemet:valueOfObservedData "18.1"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-09-28_10.4" ;
+    aemet:observedInInterval "2004-09-28"^^xsd:date ;
+    aemet:valueOfObservedData "10.4"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-07-07_19.95" ;
+    aemet:observedInInterval "2004-07-07"^^xsd:date ;
+    aemet:valueOfObservedData "19.95"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-08-06_20.3" ;
+    aemet:observedInInterval "2004-08-06"^^xsd:date ;
+    aemet:valueOfObservedData "20.3"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-06-26_15.4" ;
+    aemet:observedInInterval "2004-06-26"^^xsd:date ;
+    aemet:valueOfObservedData "15.4"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-09-10_12.3" ;
+    aemet:observedInInterval "2004-09-10"^^xsd:date ;
+    aemet:valueOfObservedData "12.3"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-06-15_20.48" ;
+    aemet:observedInInterval "2004-06-15"^^xsd:date ;
+    aemet:valueOfObservedData "20.48"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-08-14_9.1" ;
+    aemet:observedInInterval "2004-08-14"^^xsd:date ;
+    aemet:valueOfObservedData "9.1"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-08-28_14.87" ;
+    aemet:observedInInterval "2004-08-28"^^xsd:date ;
+    aemet:valueOfObservedData "14.87"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-06-14_10.8" ;
+    aemet:observedInInterval "2004-06-14"^^xsd:date ;
+    aemet:valueOfObservedData "10.8"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-08-30_14.4" ;
+    aemet:observedInInterval "2004-08-30"^^xsd:date ;
+    aemet:valueOfObservedData "14.4"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-06-30_17.8" ;
+    aemet:observedInInterval "2004-06-30"^^xsd:date ;
+    aemet:valueOfObservedData "17.8"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-09-30_6.5" ;
+    aemet:observedInInterval "2004-09-30"^^xsd:date ;
+    aemet:valueOfObservedData "6.5"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-10-21_9.26" ;
+    aemet:observedInInterval "2004-10-21"^^xsd:date ;
+    aemet:valueOfObservedData "9.26"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-07-15_14.1" ;
+    aemet:observedInInterval "2004-07-15"^^xsd:date ;
+    aemet:valueOfObservedData "14.1"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-06-27_20.46" ;
+    aemet:observedInInterval "2004-06-27"^^xsd:date ;
+    aemet:valueOfObservedData "20.46"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-06-08_20.18" ;
+    aemet:observedInInterval "2004-06-08"^^xsd:date ;
+    aemet:valueOfObservedData "20.18"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-07-05_14.7" ;
+    aemet:observedInInterval "2004-07-05"^^xsd:date ;
+    aemet:valueOfObservedData "14.7"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:WeatherStation ;
+    aemet:stationName "WUR station" ;
+    geo:location [ geo:alt "11"^^xsd:float ;
+            geo:lat "52"^^xsd:float ;
+            geo:long "5.63"^^xsd:float ;
+            geo:type geo:Point ] .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-07-28_18.09" ;
+    aemet:observedInInterval "2004-07-28"^^xsd:date ;
+    aemet:valueOfObservedData "18.09"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-08-20_15.71" ;
+    aemet:observedInInterval "2004-08-20"^^xsd:date ;
+    aemet:valueOfObservedData "15.71"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-10-29_8.43" ;
+    aemet:observedInInterval "2004-10-29"^^xsd:date ;
+    aemet:valueOfObservedData "8.43"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-06-28_15.7" ;
+    aemet:observedInInterval "2004-06-28"^^xsd:date ;
+    aemet:valueOfObservedData "15.7"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-10-15_9.88" ;
+    aemet:observedInInterval "2004-10-15"^^xsd:date ;
+    aemet:valueOfObservedData "9.88"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-08-13_9" ;
+    aemet:observedInInterval "2004-08-13"^^xsd:date ;
+    aemet:valueOfObservedData "9.0"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-06-13_20.42" ;
+    aemet:observedInInterval "2004-06-13"^^xsd:date ;
+    aemet:valueOfObservedData "20.42"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-07-12_15.1" ;
+    aemet:observedInInterval "2004-07-12"^^xsd:date ;
+    aemet:valueOfObservedData "15.1"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-06-05_13.6" ;
+    aemet:observedInInterval "2004-06-05"^^xsd:date ;
+    aemet:valueOfObservedData "13.6"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-10-23_9.05" ;
+    aemet:observedInInterval "2004-10-23"^^xsd:date ;
+    aemet:valueOfObservedData "9.05"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-09-22_10.9" ;
+    aemet:observedInInterval "2004-09-22"^^xsd:date ;
+    aemet:valueOfObservedData "10.9"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-08-03_17.48" ;
+    aemet:observedInInterval "2004-08-03"^^xsd:date ;
+    aemet:valueOfObservedData "17.48"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-06-30_20.35" ;
+    aemet:observedInInterval "2004-06-30"^^xsd:date ;
+    aemet:valueOfObservedData "20.35"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-07-01_20.30" ;
+    aemet:observedInInterval "2004-07-01"^^xsd:date ;
+    aemet:valueOfObservedData "20.3"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-06-22_14.3" ;
+    aemet:observedInInterval "2004-06-22"^^xsd:date ;
+    aemet:valueOfObservedData "14.3"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-09-27_9.6" ;
+    aemet:observedInInterval "2004-09-27"^^xsd:date ;
+    aemet:valueOfObservedData "9.6"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-10-14_9.99" ;
+    aemet:observedInInterval "2004-10-14"^^xsd:date ;
+    aemet:valueOfObservedData "9.99"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-10-11_10.30" ;
+    aemet:observedInInterval "2004-10-11"^^xsd:date ;
+    aemet:valueOfObservedData "10.3"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-07-06_20.01" ;
+    aemet:observedInInterval "2004-07-06"^^xsd:date ;
+    aemet:valueOfObservedData "20.01"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-06-12_12.1" ;
+    aemet:observedInInterval "2004-06-12"^^xsd:date ;
+    aemet:valueOfObservedData "12.1"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-09-18_12.69" ;
+    aemet:observedInInterval "2004-09-18"^^xsd:date ;
+    aemet:valueOfObservedData "12.69"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-10-10_10.41" ;
+    aemet:observedInInterval "2004-10-10"^^xsd:date ;
+    aemet:valueOfObservedData "10.41"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-07-12_19.57" ;
+    aemet:observedInInterval "2004-07-12"^^xsd:date ;
+    aemet:valueOfObservedData "19.57"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-09-20_12.48" ;
+    aemet:observedInInterval "2004-09-20"^^xsd:date ;
+    aemet:valueOfObservedData "12.48"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-09-14_9.8" ;
+    aemet:observedInInterval "2004-09-14"^^xsd:date ;
+    aemet:valueOfObservedData "9.8"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-09-19_12.58" ;
+    aemet:observedInInterval "2004-09-19"^^xsd:date ;
+    aemet:valueOfObservedData "12.58"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-06-21_13.3" ;
+    aemet:observedInInterval "2004-06-21"^^xsd:date ;
+    aemet:valueOfObservedData "13.3"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-06-07_20.13" ;
+    aemet:observedInInterval "2004-06-07"^^xsd:date ;
+    aemet:valueOfObservedData "20.13"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-07-29_16.6" ;
+    aemet:observedInInterval "2004-07-29"^^xsd:date ;
+    aemet:valueOfObservedData "16.6"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-07-27_18.19" ;
+    aemet:observedInInterval "2004-07-27"^^xsd:date ;
+    aemet:valueOfObservedData "18.19"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-10-01_3.7" ;
+    aemet:observedInInterval "2004-10-01"^^xsd:date ;
+    aemet:valueOfObservedData "3.7"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-07-22_14.3" ;
+    aemet:observedInInterval "2004-07-22"^^xsd:date ;
+    aemet:valueOfObservedData "14.3"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-07-14_14.4" ;
+    aemet:observedInInterval "2004-07-14"^^xsd:date ;
+    aemet:valueOfObservedData "14.4"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-10-17_9.68" ;
+    aemet:observedInInterval "2004-10-17"^^xsd:date ;
+    aemet:valueOfObservedData "9.68"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-06-17_20.53" ;
+    aemet:observedInInterval "2004-06-17"^^xsd:date ;
+    aemet:valueOfObservedData "20.53"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-10-07_7.8" ;
+    aemet:observedInInterval "2004-10-07"^^xsd:date ;
+    aemet:valueOfObservedData "7.8"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-06-17_7.4" ;
+    aemet:observedInInterval "2004-06-17"^^xsd:date ;
+    aemet:valueOfObservedData "7.4"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-06-29_20.39" ;
+    aemet:observedInInterval "2004-06-29"^^xsd:date ;
+    aemet:valueOfObservedData "20.39"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-06-11_20.34" ;
+    aemet:observedInInterval "2004-06-11"^^xsd:date ;
+    aemet:valueOfObservedData "20.34"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-06-15_9.9" ;
+    aemet:observedInInterval "2004-06-15"^^xsd:date ;
+    aemet:valueOfObservedData "9.9"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-09-03_14.24" ;
+    aemet:observedInInterval "2004-09-03"^^xsd:date ;
+    aemet:valueOfObservedData "14.24"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-09-05_14.04" ;
+    aemet:observedInInterval "2004-09-05"^^xsd:date ;
+    aemet:valueOfObservedData "14.04"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-09-16_12.89" ;
+    aemet:observedInInterval "2004-09-16"^^xsd:date ;
+    aemet:valueOfObservedData "12.89"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-07-29_17.99" ;
+    aemet:observedInInterval "2004-07-29"^^xsd:date ;
+    aemet:valueOfObservedData "17.99"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-07-02_20.25" ;
+    aemet:observedInInterval "2004-07-02"^^xsd:date ;
+    aemet:valueOfObservedData "20.25"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-09-02_13.7" ;
+    aemet:observedInInterval "2004-09-02"^^xsd:date ;
+    aemet:valueOfObservedData "13.7"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-10-05_10.92" ;
+    aemet:observedInInterval "2004-10-05"^^xsd:date ;
+    aemet:valueOfObservedData "10.92"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-08-19_15.81" ;
+    aemet:observedInInterval "2004-08-19"^^xsd:date ;
+    aemet:valueOfObservedData "15.81"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-08-23_15.39" ;
+    aemet:observedInInterval "2004-08-23"^^xsd:date ;
+    aemet:valueOfObservedData "15.39"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-07-27_16.9" ;
+    aemet:observedInInterval "2004-07-27"^^xsd:date ;
+    aemet:valueOfObservedData "16.9"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-08-25_9.4" ;
+    aemet:observedInInterval "2004-08-25"^^xsd:date ;
+    aemet:valueOfObservedData "9.4"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-10-03_11.13" ;
+    aemet:observedInInterval "2004-10-03"^^xsd:date ;
+    aemet:valueOfObservedData "11.13"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-09-14_13.10" ;
+    aemet:observedInInterval "2004-09-14"^^xsd:date ;
+    aemet:valueOfObservedData "13.1"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-08-14_16.34" ;
+    aemet:observedInInterval "2004-08-14"^^xsd:date ;
+    aemet:valueOfObservedData "16.34"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-10-04_11.03" ;
+    aemet:observedInInterval "2004-10-04"^^xsd:date ;
+    aemet:valueOfObservedData "11.03"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-06-24_20.53" ;
+    aemet:observedInInterval "2004-06-24"^^xsd:date ;
+    aemet:valueOfObservedData "20.53"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-06-10_11.3" ;
+    aemet:observedInInterval "2004-06-10"^^xsd:date ;
+    aemet:valueOfObservedData "11.3"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-08-01_17.69" ;
+    aemet:observedInInterval "2004-08-01"^^xsd:date ;
+    aemet:valueOfObservedData "17.69"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-08-17_9.8" ;
+    aemet:observedInInterval "2004-08-17"^^xsd:date ;
+    aemet:valueOfObservedData "9.8"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-08-11_14.8" ;
+    aemet:observedInInterval "2004-08-11"^^xsd:date ;
+    aemet:valueOfObservedData "14.8"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-08-21_15.60" ;
+    aemet:observedInInterval "2004-08-21"^^xsd:date ;
+    aemet:valueOfObservedData "15.6"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-07-25_17.4" ;
+    aemet:observedInInterval "2004-07-25"^^xsd:date ;
+    aemet:valueOfObservedData "17.4"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-07-10_19.73" ;
+    aemet:observedInInterval "2004-07-10"^^xsd:date ;
+    aemet:valueOfObservedData "19.73"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-09-15_13.00" ;
+    aemet:observedInInterval "2004-09-15"^^xsd:date ;
+    aemet:valueOfObservedData "13.0"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-06-23_20.55" ;
+    aemet:observedInInterval "2004-06-23"^^xsd:date ;
+    aemet:valueOfObservedData "20.55"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-09-13_13.20" ;
+    aemet:observedInInterval "2004-09-13"^^xsd:date ;
+    aemet:valueOfObservedData "13.2"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-09-04_15.8" ;
+    aemet:observedInInterval "2004-09-04"^^xsd:date ;
+    aemet:valueOfObservedData "15.8"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-07-19_18.96" ;
+    aemet:observedInInterval "2004-07-19"^^xsd:date ;
+    aemet:valueOfObservedData "18.96"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-06-01_10" ;
+    aemet:observedInInterval "2004-06-01"^^xsd:date ;
+    aemet:valueOfObservedData "10.0"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-07-23_16.4" ;
+    aemet:observedInInterval "2004-07-23"^^xsd:date ;
+    aemet:valueOfObservedData "16.4"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-06-23_14.4" ;
+    aemet:observedInInterval "2004-06-23"^^xsd:date ;
+    aemet:valueOfObservedData "14.4"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-08-28_14.3" ;
+    aemet:observedInInterval "2004-08-28"^^xsd:date ;
+    aemet:valueOfObservedData "14.3"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-10-27_8.64" ;
+    aemet:observedInInterval "2004-10-27"^^xsd:date ;
+    aemet:valueOfObservedData "8.64"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-09-09_13.62" ;
+    aemet:observedInInterval "2004-09-09"^^xsd:date ;
+    aemet:valueOfObservedData "13.62"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-06-29_15.3" ;
+    aemet:observedInInterval "2004-06-29"^^xsd:date ;
+    aemet:valueOfObservedData "15.3"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-07-06_14.4" ;
+    aemet:observedInInterval "2004-07-06"^^xsd:date ;
+    aemet:valueOfObservedData "14.4"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-08-30_14.66" ;
+    aemet:observedInInterval "2004-08-30"^^xsd:date ;
+    aemet:valueOfObservedData "14.66"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-06-25_14.6" ;
+    aemet:observedInInterval "2004-06-25"^^xsd:date ;
+    aemet:valueOfObservedData "14.6"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-08-23_11.4" ;
+    aemet:observedInInterval "2004-08-23"^^xsd:date ;
+    aemet:valueOfObservedData "11.4"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-07-23_18.58" ;
+    aemet:observedInInterval "2004-07-23"^^xsd:date ;
+    aemet:valueOfObservedData "18.58"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-07-17_19.14" ;
+    aemet:observedInInterval "2004-07-17"^^xsd:date ;
+    aemet:valueOfObservedData "19.14"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-07-08_19.88" ;
+    aemet:observedInInterval "2004-07-08"^^xsd:date ;
+    aemet:valueOfObservedData "19.88"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-07-02_18.7" ;
+    aemet:observedInInterval "2004-07-02"^^xsd:date ;
+    aemet:valueOfObservedData "18.7"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-09-30_11.44" ;
+    aemet:observedInInterval "2004-09-30"^^xsd:date ;
+    aemet:valueOfObservedData "11.44"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-09-12_9.1" ;
+    aemet:observedInInterval "2004-09-12"^^xsd:date ;
+    aemet:valueOfObservedData "9.1"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-09-06_13.93" ;
+    aemet:observedInInterval "2004-09-06"^^xsd:date ;
+    aemet:valueOfObservedData "13.93"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-07-25_18.39" ;
+    aemet:observedInInterval "2004-07-25"^^xsd:date ;
+    aemet:valueOfObservedData "18.39"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-06-24_16.4" ;
+    aemet:observedInInterval "2004-06-24"^^xsd:date ;
+    aemet:valueOfObservedData "16.4"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-08-11_16.65" ;
+    aemet:observedInInterval "2004-08-11"^^xsd:date ;
+    aemet:valueOfObservedData "16.65"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-07-31_17.79" ;
+    aemet:observedInInterval "2004-07-31"^^xsd:date ;
+    aemet:valueOfObservedData "17.79"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-06-10_20.29" ;
+    aemet:observedInInterval "2004-06-10"^^xsd:date ;
+    aemet:valueOfObservedData "20.29"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-10-22_9.16" ;
+    aemet:observedInInterval "2004-10-22"^^xsd:date ;
+    aemet:valueOfObservedData "9.16"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-09-26_11.86" ;
+    aemet:observedInInterval "2004-09-26"^^xsd:date ;
+    aemet:valueOfObservedData "11.86"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-10-02_2.6" ;
+    aemet:observedInInterval "2004-10-02"^^xsd:date ;
+    aemet:valueOfObservedData "2.6"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-07-16_12.9" ;
+    aemet:observedInInterval "2004-07-16"^^xsd:date ;
+    aemet:valueOfObservedData "12.9"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-07-10_15.7" ;
+    aemet:observedInInterval "2004-07-10"^^xsd:date ;
+    aemet:valueOfObservedData "15.7"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-08-25_15.18" ;
+    aemet:observedInInterval "2004-08-25"^^xsd:date ;
+    aemet:valueOfObservedData "15.18"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-07-20_17.4" ;
+    aemet:observedInInterval "2004-07-20"^^xsd:date ;
+    aemet:valueOfObservedData "17.4"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-06-14_20.45" ;
+    aemet:observedInInterval "2004-06-14"^^xsd:date ;
+    aemet:valueOfObservedData "20.45"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-09-29_11.55" ;
+    aemet:observedInInterval "2004-09-29"^^xsd:date ;
+    aemet:valueOfObservedData "11.55"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-08-04_17.38" ;
+    aemet:observedInInterval "2004-08-04"^^xsd:date ;
+    aemet:valueOfObservedData "17.38"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-06-18_20.55" ;
+    aemet:observedInInterval "2004-06-18"^^xsd:date ;
+    aemet:valueOfObservedData "20.55"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-08-18_15.92" ;
+    aemet:observedInInterval "2004-08-18"^^xsd:date ;
+    aemet:valueOfObservedData "15.92"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-07-18_17.1" ;
+    aemet:observedInInterval "2004-07-18"^^xsd:date ;
+    aemet:valueOfObservedData "17.1"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-06-09_20.24" ;
+    aemet:observedInInterval "2004-06-09"^^xsd:date ;
+    aemet:valueOfObservedData "20.24"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-08-07_20.5" ;
+    aemet:observedInInterval "2004-08-07"^^xsd:date ;
+    aemet:valueOfObservedData "20.5"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-08-27_11.3" ;
+    aemet:observedInInterval "2004-08-27"^^xsd:date ;
+    aemet:valueOfObservedData "11.3"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-09-05_16.6" ;
+    aemet:observedInInterval "2004-09-05"^^xsd:date ;
+    aemet:valueOfObservedData "16.6"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-06-08_7.8" ;
+    aemet:observedInInterval "2004-06-08"^^xsd:date ;
+    aemet:valueOfObservedData "7.8"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-09-11_13.41" ;
+    aemet:observedInInterval "2004-09-11"^^xsd:date ;
+    aemet:valueOfObservedData "13.41"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-temp-2004-07-07_15.3" ;
+    aemet:observedInInterval "2004-07-07"^^xsd:date ;
+    aemet:valueOfObservedData "15.3"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:Necdf38d7351945b29e11f8a9c8471d99 .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-08-27_14.97" ;
+    aemet:observedInInterval "2004-08-27"^^xsd:date ;
+    aemet:valueOfObservedData "14.97"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-07-15_19.32" ;
+    aemet:observedInInterval "2004-07-15"^^xsd:date ;
+    aemet:valueOfObservedData "19.32"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-10-12_10.20" ;
+    aemet:observedInInterval "2004-10-12"^^xsd:date ;
+    aemet:valueOfObservedData "10.2"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+[] a aemet:Observation ;
+    rdfs:label "Fin04-sun-2004-10-20_9.36" ;
+    aemet:observedInInterval "2004-10-20"^^xsd:date ;
+    aemet:valueOfObservedData "9.36"^^xsd:float ;
+    ssn:observedBy _:N11406a8d4cb441ef9a5bf866651d29da ;
+    ssn:observedProperty _:N506895d0fc1d43f2b60ad0d612eaa6fe .
+
+_:N768ba94429f94431be5179760c3882ec geo:alt "48"^^xsd:float ;
+    geo:lat "64.7"^^xsd:float ;
+    geo:long "25"^^xsd:float ;
+    geo:type geo:Point .
+
+_:Necdf38d7351945b29e11f8a9c8471d99 a aemet:AmbientProperty ;
+    rdfs:label "Mean temperature" .
+
+_:N506895d0fc1d43f2b60ad0d612eaa6fe a aemet:AmbientProperty ;
+    rdfs:label "Hours of sunlight" .
+
+_:N11406a8d4cb441ef9a5bf866651d29da a aemet:WeatherStation ;
+    aemet:stationName "Ruuki station" ;
+    geo:location _:N768ba94429f94431be5179760c3882ec .
+

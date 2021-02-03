@@ -1,0 +1,43 @@
+version: "3.7"
+
+services:
+  fuseki:
+    build:
+      context: ./all_containers
+      dockerfile: ./server-fuseki/Dockerfile
+    image: test:fuseki
+    environment: 
+      - ADMIN_PASSWORD=pw123
+      - ENABLE_DATA_WRITE=true
+      - ENABLE_UPDATE=true
+      - ENABLE_UPLOAD=true
+      - FUSEKI_DATASET1=testdata1
+      - QUERY_TIMEOUT=10000
+    ports:
+      - "43030:3030"
+    networks: 
+      - shared-network
+      
+  jupyter:
+    build:
+      context: ./all_containers
+      dockerfile: ./server-jupyter/Dockerfile
+    image: test:jupyter
+    ports:
+      - "48888:8888"
+    networks: 
+      - shared-network
+      
+  fdp:
+    build:
+      context: ./all_containers
+      dockerfile: ./server-fdp/Dockerfile
+    image: test:fdp
+    ports:
+      - "43131:3131"
+    networks: 
+      - shared-network
+
+networks:
+  shared-network: 
+    driver: bridge

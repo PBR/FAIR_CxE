@@ -1,0 +1,16 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://localhost:3131/FDP/distribution/Pheno_dataset_1_sparql.ttl> a dcat:Distribution ;
+    dct:title "SPARQL endpoint for the phenotypic datasets associated with P. Hurtado's thesis"@en;
+    dct:identifier "SPARQL" ;
+    dct:hasVersion "1.0" ;
+    rdfs:label "Queriable endpoint for data associated with P. Hurtado's thesis"@en;
+    dcat:downloadURL <http://localhost:3030/dataset.html?tab=query&ds=/pheno>;
+    dct:license <http://rdflicense.appspot.com/rdflicense/cc-by-nc-nd3.0>;
+        dct:issued "2018-11-06T12:13:00.000000+00:00"^^xsd:dateTime ;
+        dct:modified "2018-11-06T12:13:00.000000+00:00"^^xsd:dateTime ; 
+        dcat:mediaType "json" .

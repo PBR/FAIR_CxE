@@ -1,0 +1,1506 @@
+@prefix ppeo: <http://purl.org/ppeo/PPEO.owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<#data_file/WUR_inv_CE2020_data_2003VE_csv> ppeo:hasDigitalLocation "data_2003VE.csv" ;
+    ppeo:hasObservation <#observation/WUR_inv_CE2020_TubN_average_per_genotype_1>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_101>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_103>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_105>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_107>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_109>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_11>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_111>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_113>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_115>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_117>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_119>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_121>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_123>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_125>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_127>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_129>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_13>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_131>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_133>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_135>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_137>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_139>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_141>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_143>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_145>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_147>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_149>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_15>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_151>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_153>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_155>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_157>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_159>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_161>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_163>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_165>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_167>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_169>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_17>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_171>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_173>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_175>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_177>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_179>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_181>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_183>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_185>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_187>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_189>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_19>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_191>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_193>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_195>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_197>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_199>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_201>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_203>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_205>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_207>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_209>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_21>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_211>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_213>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_23>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_25>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_27>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_29>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_3>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_31>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_33>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_35>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_37>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_39>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_41>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_43>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_45>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_47>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_49>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_5>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_51>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_53>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_55>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_57>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_59>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_61>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_63>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_65>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_67>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_69>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_7>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_71>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_73>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_75>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_77>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_79>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_81>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_83>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_85>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_87>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_89>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_9>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_91>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_93>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_95>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_97>,
+        <#observation/WUR_inv_CE2020_TubN_average_per_genotype_99>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_10>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_100>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_102>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_104>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_106>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_108>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_110>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_112>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_114>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_116>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_118>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_12>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_120>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_122>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_124>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_126>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_128>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_130>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_132>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_134>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_136>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_138>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_14>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_140>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_142>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_144>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_146>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_148>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_150>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_152>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_154>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_156>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_158>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_16>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_160>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_162>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_164>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_166>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_168>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_170>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_172>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_174>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_176>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_178>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_18>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_180>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_182>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_184>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_186>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_188>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_190>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_192>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_194>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_196>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_198>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_2>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_20>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_200>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_202>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_204>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_206>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_208>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_210>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_212>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_214>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_22>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_24>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_26>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_28>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_30>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_32>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_34>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_36>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_38>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_4>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_40>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_42>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_44>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_46>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_48>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_50>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_52>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_54>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_56>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_58>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_6>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_60>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_62>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_64>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_66>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_68>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_70>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_72>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_74>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_76>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_78>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_8>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_80>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_82>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_84>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_86>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_88>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_90>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_92>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_94>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_96>,
+        <#observation/WUR_inv_CE2020_TubW_average_per_genotype_98> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_1> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE011> ;
+    ppeo:hasValue 1.85e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_101> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE655> ;
+    ppeo:hasValue 1.35e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_103> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE656> ;
+    ppeo:hasValue 1.8e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_105> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE657> ;
+    ppeo:hasValue 3.4e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_107> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE658> ;
+    ppeo:hasValue 1.6e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_109> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE659> ;
+    ppeo:hasValue 1.5e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_11> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE100> ;
+    ppeo:hasValue 8e+00 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_111> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE664> ;
+    ppeo:hasValue 2.7e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_113> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE666> ;
+    ppeo:hasValue 7.5e+00 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_115> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE667> ;
+    ppeo:hasValue 1.5e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_117> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE668> ;
+    ppeo:hasValue 1.2e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_119> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE669> ;
+    ppeo:hasValue 7e+00 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_121> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE670> ;
+    ppeo:hasValue 3.1e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_123> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE677> ;
+    ppeo:hasValue 2.4e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_125> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE678> ;
+    ppeo:hasValue 2.7e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_127> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE680> ;
+    ppeo:hasValue 1.7e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_129> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE681> ;
+    ppeo:hasValue 1.3e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_13> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE102> ;
+    ppeo:hasValue 1.6e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_131> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE683> ;
+    ppeo:hasValue 2.3e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_133> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE689> ;
+    ppeo:hasValue 1.45e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_135> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE690> ;
+    ppeo:hasValue 1e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_137> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE692> ;
+    ppeo:hasValue 1.3e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_139> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE693> ;
+    ppeo:hasValue 2.6e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_141> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE695> ;
+    ppeo:hasValue 1e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_143> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE696> ;
+    ppeo:hasValue 2.2e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_145> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE698> ;
+    ppeo:hasValue 8e+00 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_147> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE699> ;
+    ppeo:hasValue 1.9e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_149> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE700> ;
+    ppeo:hasValue 2.8e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_15> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE110> ;
+    ppeo:hasValue 9.5e+00 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_151> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE701> ;
+    ppeo:hasValue 1.4e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_153> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE704> ;
+    ppeo:hasValue 1.95e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_155> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE705> ;
+    ppeo:hasValue 8e+00 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_157> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE706> ;
+    ppeo:hasValue 3.65e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_159> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE707> ;
+    ppeo:hasValue 1.15e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_161> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE710> ;
+    ppeo:hasValue 3.2e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_163> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE713> ;
+    ppeo:hasValue 1e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_165> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE715> ;
+    ppeo:hasValue 3e+00 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_167> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE719> ;
+    ppeo:hasValue 9e+00 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_169> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE721> ;
+    ppeo:hasValue 1.7e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_17> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE155> ;
+    ppeo:hasValue 2.7e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_171> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE729> ;
+    ppeo:hasValue 9e+00 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_173> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE731> ;
+    ppeo:hasValue 1.6e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_175> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE734> ;
+    ppeo:hasValue 1.05e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_177> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE740> ;
+    ppeo:hasValue 1.7e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_179> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE742> ;
+    ppeo:hasValue 1.3e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_181> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE744> ;
+    ppeo:hasValue 3.6e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_183> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE746> ;
+    ppeo:hasValue 3.95e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_185> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE748> ;
+    ppeo:hasValue 1.8e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_187> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE750> ;
+    ppeo:hasValue 1.15e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_189> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE754> ;
+    ppeo:hasValue 9.5e+00 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_19> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE159> ;
+    ppeo:hasValue 2.2e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_191> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE755> ;
+    ppeo:hasValue 1.3e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_193> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE756> ;
+    ppeo:hasValue 3.9e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_195> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE758> ;
+    ppeo:hasValue 1.1e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_197> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE759> ;
+    ppeo:hasValue 1.5e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_199> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE760> ;
+    ppeo:hasValue 2.5e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_201> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE761> ;
+    ppeo:hasValue 3e+00 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_203> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE762> ;
+    ppeo:hasValue 1.5e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_205> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE763> ;
+    ppeo:hasValue 1.9e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_207> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE765> ;
+    ppeo:hasValue 2.1e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_209> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE766> ;
+    ppeo:hasValue 7e+00 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_21> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE165> ;
+    ppeo:hasValue 1.7e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_211> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE776> ;
+    ppeo:hasValue 1.1e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_213> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE788> ;
+    ppeo:hasValue 7e+00 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_23> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE195> ;
+    ppeo:hasValue 1e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_25> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE200> ;
+    ppeo:hasValue 1.9e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_27> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE202> ;
+    ppeo:hasValue 9e+00 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_29> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE207> ;
+    ppeo:hasValue 2.6e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_3> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE032> ;
+    ppeo:hasValue 8e+00 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_31> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE210> ;
+    ppeo:hasValue 2.3e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_33> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE233> ;
+    ppeo:hasValue 1.8e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_35> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE252> ;
+    ppeo:hasValue 1.2e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_37> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE276> ;
+    ppeo:hasValue 1.05e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_39> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE298> ;
+    ppeo:hasValue 1.7e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_41> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE601> ;
+    ppeo:hasValue 1.1e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_43> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE602> ;
+    ppeo:hasValue 1.45e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_45> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE603> ;
+    ppeo:hasValue 1.5e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_47> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE604> ;
+    ppeo:hasValue 8.5e+00 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_49> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE605> ;
+    ppeo:hasValue 1.2e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_5> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE047> ;
+    ppeo:hasValue 2.1e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_51> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE607> ;
+    ppeo:hasValue 1.1e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_53> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE609> ;
+    ppeo:hasValue 1.4e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_55> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE611> ;
+    ppeo:hasValue 7e+00 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_57> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE612> ;
+    ppeo:hasValue 2.45e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_59> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE613> ;
+    ppeo:hasValue 1.3e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_61> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE615> ;
+    ppeo:hasValue 8e+00 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_63> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE616> ;
+    ppeo:hasValue 3.2e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_65> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE617> ;
+    ppeo:hasValue 1.1e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_67> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE618> ;
+    ppeo:hasValue 2.65e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_69> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE622> ;
+    ppeo:hasValue 1.1e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_7> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE067> ;
+    ppeo:hasValue 1.15e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_71> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE625> ;
+    ppeo:hasValue 1e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_73> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE626> ;
+    ppeo:hasValue 1.35e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_75> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE627> ;
+    ppeo:hasValue 3.05e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_77> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE630> ;
+    ppeo:hasValue 2.35e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_79> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE633> ;
+    ppeo:hasValue 5e+00 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_81> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE635> ;
+    ppeo:hasValue 8.5e+00 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_83> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE636> ;
+    ppeo:hasValue 1.1e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_85> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE637> ;
+    ppeo:hasValue 1.1e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_87> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE638> ;
+    ppeo:hasValue 5e+00 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_89> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE639> ;
+    ppeo:hasValue 1.45e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_9> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE070> ;
+    ppeo:hasValue 7e+00 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_91> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE640> ;
+    ppeo:hasValue 2.4e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_93> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE648> ;
+    ppeo:hasValue 4.5e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_95> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE650> ;
+    ppeo:hasValue 2.3e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_97> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE651> ;
+    ppeo:hasValue 9e+00 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubN_average_per_genotype_99> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE654> ;
+    ppeo:hasValue 1e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubN_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_10> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE070> ;
+    ppeo:hasValue 1.25e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_100> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE654> ;
+    ppeo:hasValue 3.75e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_102> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE655> ;
+    ppeo:hasValue 8.4e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_104> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE656> ;
+    ppeo:hasValue 1.78e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_106> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE657> ;
+    ppeo:hasValue 1.145e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_108> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE658> ;
+    ppeo:hasValue 7.6e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_110> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE659> ;
+    ppeo:hasValue 6.8e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_112> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE664> ;
+    ppeo:hasValue 6.65e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_114> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE666> ;
+    ppeo:hasValue 3.4e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_116> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE667> ;
+    ppeo:hasValue 1.875e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_118> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE668> ;
+    ppeo:hasValue 4.5e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_12> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE100> ;
+    ppeo:hasValue 1.275e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_120> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE669> ;
+    ppeo:hasValue 7.5e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_122> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE670> ;
+    ppeo:hasValue 2e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_124> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE677> ;
+    ppeo:hasValue 4e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_126> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE678> ;
+    ppeo:hasValue 1.88e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_128> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE680> ;
+    ppeo:hasValue 1.7e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_130> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE681> ;
+    ppeo:hasValue 1.8e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_132> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE683> ;
+    ppeo:hasValue 5e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_134> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE689> ;
+    ppeo:hasValue 2.425e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_136> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE690> ;
+    ppeo:hasValue 8.75e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_138> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE692> ;
+    ppeo:hasValue 1.7e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_14> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE102> ;
+    ppeo:hasValue 1.76e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_140> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE693> ;
+    ppeo:hasValue 9.8e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_142> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE695> ;
+    ppeo:hasValue 1.89e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_144> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE696> ;
+    ppeo:hasValue 6.45e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_146> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE698> ;
+    ppeo:hasValue 2.5e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_148> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE699> ;
+    ppeo:hasValue 1.515e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_150> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE700> ;
+    ppeo:hasValue 2.125e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_152> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE701> ;
+    ppeo:hasValue 1e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_154> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE704> ;
+    ppeo:hasValue 8.9e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_156> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE705> ;
+    ppeo:hasValue 2.75e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_158> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE706> ;
+    ppeo:hasValue 7.65e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_16> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE110> ;
+    ppeo:hasValue 5.6e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_160> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE707> ;
+    ppeo:hasValue 7.15e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_162> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE710> ;
+    ppeo:hasValue 1.685e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_164> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE713> ;
+    ppeo:hasValue 9.75e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_166> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE715> ;
+    ppeo:hasValue 5e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_168> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE719> ;
+    ppeo:hasValue 7.7e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_170> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE721> ;
+    ppeo:hasValue 1.03e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_172> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE729> ;
+    ppeo:hasValue 1.45e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_174> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE731> ;
+    ppeo:hasValue 1.5e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_176> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE734> ;
+    ppeo:hasValue 6.25e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_178> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE740> ;
+    ppeo:hasValue 1.175e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_18> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE155> ;
+    ppeo:hasValue 1e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_180> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE742> ;
+    ppeo:hasValue 7.6e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_182> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE744> ;
+    ppeo:hasValue 1.08e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_184> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE746> ;
+    ppeo:hasValue 1.5e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_186> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE748> ;
+    ppeo:hasValue 3e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_188> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE750> ;
+    ppeo:hasValue 1e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_190> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE754> ;
+    ppeo:hasValue 5.15e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_192> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE755> ;
+    ppeo:hasValue 3e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_194> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE756> ;
+    ppeo:hasValue 1.77e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_196> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE758> ;
+    ppeo:hasValue 3.55e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_198> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE759> ;
+    ppeo:hasValue 1.26e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_2> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE011> ;
+    ppeo:hasValue 1.425e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_20> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE159> ;
+    ppeo:hasValue 2.725e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_200> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE760> ;
+    ppeo:hasValue 1.56e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_202> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE761> ;
+    ppeo:hasValue 1.2e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_204> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE762> ;
+    ppeo:hasValue 1.28e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_206> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE763> ;
+    ppeo:hasValue 5.55e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_208> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE765> ;
+    ppeo:hasValue 5.6e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_210> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE766> ;
+    ppeo:hasValue 6.7e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_212> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE776> ;
+    ppeo:hasValue 5e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_214> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE788> ;
+    ppeo:hasValue 4.85e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_22> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE165> ;
+    ppeo:hasValue 3.395e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_24> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE195> ;
+    ppeo:hasValue 5e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_26> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE200> ;
+    ppeo:hasValue 7.25e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_28> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE202> ;
+    ppeo:hasValue 4.05e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_30> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE207> ;
+    ppeo:hasValue 2.2e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_32> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE210> ;
+    ppeo:hasValue 1.77e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_34> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE233> ;
+    ppeo:hasValue 7.45e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_36> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE252> ;
+    ppeo:hasValue 2.7e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_38> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE276> ;
+    ppeo:hasValue 9.6e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_4> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE032> ;
+    ppeo:hasValue 2.375e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_40> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE298> ;
+    ppeo:hasValue 7.5e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_42> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE601> ;
+    ppeo:hasValue 5.2e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_44> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE602> ;
+    ppeo:hasValue 7.6e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_46> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE603> ;
+    ppeo:hasValue 1.1e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_48> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE604> ;
+    ppeo:hasValue 8.5e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_50> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE605> ;
+    ppeo:hasValue 1.74e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_52> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE607> ;
+    ppeo:hasValue 1.15e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_54> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE609> ;
+    ppeo:hasValue 1.2e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_56> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE611> ;
+    ppeo:hasValue 9.8e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_58> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE612> ;
+    ppeo:hasValue 1.375e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_6> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE047> ;
+    ppeo:hasValue 2.3e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_60> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE613> ;
+    ppeo:hasValue 1e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_62> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE615> ;
+    ppeo:hasValue 3.4e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_64> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE616> ;
+    ppeo:hasValue 3.9e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_66> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE617> ;
+    ppeo:hasValue 8.75e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_68> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE618> ;
+    ppeo:hasValue 1.66e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_70> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE622> ;
+    ppeo:hasValue 1.2e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_72> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE625> ;
+    ppeo:hasValue 5e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_74> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE626> ;
+    ppeo:hasValue 6.3e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_76> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE627> ;
+    ppeo:hasValue 2.6e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_78> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE630> ;
+    ppeo:hasValue 1.885e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_8> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE067> ;
+    ppeo:hasValue 6.25e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_80> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE633> ;
+    ppeo:hasValue 3e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_82> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE635> ;
+    ppeo:hasValue 1.24e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_84> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE636> ;
+    ppeo:hasValue 1.25e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_86> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE637> ;
+    ppeo:hasValue 2.7e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_88> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE638> ;
+    ppeo:hasValue 8e+00 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_90> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE639> ;
+    ppeo:hasValue 2.125e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_92> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE640> ;
+    ppeo:hasValue 2.625e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_94> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE648> ;
+    ppeo:hasValue 1.2e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_96> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE650> ;
+    ppeo:hasValue 1.335e+02 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+
+<#observation/WUR_inv_CE2020_TubW_average_per_genotype_98> a ppeo:observation ;
+    ppeo:hasDateTime "2003-11-30"^^xsd:date ;
+    ppeo:hasObservedSubject <#observation_unit/WUR_inv_CE2020_WUR_CE_VEN03_CE651> ;
+    ppeo:hasValue 2.5e+01 ;
+    ppeo:hasVariable <#variable/WUR_inv_CE2020_TubW_average_per_genotype> .
+

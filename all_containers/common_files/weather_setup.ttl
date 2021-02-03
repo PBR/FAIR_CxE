@@ -1,0 +1,44 @@
+@prefix fuseki:  <http://jena.apache.org/fuseki#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix tdb:     <http://jena.hpl.hp.com/2008/tdb#> .
+@prefix ja:      <http://jena.hpl.hp.com/2005/11/Assembler#> .
+@prefix text:    <http://jena.apache.org/text#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl:  <http://www.w3.org/2008/05/skos-xl#> .
+@prefix agent:   <http://schema.onki.fi/agent-schema#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix spatial: <http://jena.apache.org/spatial#> .
+@prefix schema:  <http://schema.org/> .
+@prefix :        <#> .
+
+
+[] rdf:type fuseki:Server ;
+fuseki:services (
+  <#serviceW>
+) .
+
+# Declaration additional assembler items.
+[] ja:loadClass "org.apache.jena.tdb.TDB" .
+# TDB
+tdb:DatasetTDB rdfs:subClassOf ja:RDFDataset .
+tdb:GraphTDB rdfs:subClassOf ja:Model .
+
+<#serviceW> rdf:type fuseki:Service ;
+    fuseki:name                      "weather" ;   # http://host:port/weather
+    fuseki:serviceQuery               "query" , "sparql" ;
+    fuseki:seraviceReadGraphStore     "get" ;
+    # fuseki:serviceReadQuads           "" ;
+    fuseki:serviceReadWriteGraphStore "data" ;
+    # fuseki:serviceReadWriteQuads      "" ;
+    fuseki:serviceUpdate              "update" ;
+    fuseki:serviceUpload              "upload" ;
+    fuseki:dataset                    <#datasetW> ;
+.
+
+<#datasetW> a tdb:DatasetTDB ;
+#ja:RDFDataset ;
+    #ja:defaultGraph <#tdbGraphP>;
+    tdb:location "weather" ;
+    ja:context [ ja:cxtName "arq:queryTimeout" ; ja:cxtValue "30000" ] ;
+.

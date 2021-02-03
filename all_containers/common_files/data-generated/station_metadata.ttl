@@ -1,0 +1,43 @@
+@prefix aemet: <http://aemet.linkeddata.es/ontology/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ssn: <http://purl.oclc.org/NET/ssnx/ssn#> .
+@prefix w3ctime: <http://www.w3.org/2006/time#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] a aemet:WeatherStation ;
+    aemet:stationName "Ruuki station" ;
+    geo:location [ geo:alt "48"^^xsd:float ;
+            geo:lat "64.7"^^xsd:float ;
+            geo:long "25"^^xsd:float ;
+            geo:type geo:Point ] .
+
+[] a aemet:WeatherStation ;
+    aemet:stationName "Holeta station" ;
+    geo:location [ geo:alt "2400"^^xsd:float ;
+            geo:lat "9.12"^^xsd:float ;
+            geo:long "38"^^xsd:float ;
+            geo:type geo:Point ] .
+
+[] a aemet:AmbientProperty ;
+    rdfs:label "Hours of sunlight" .
+
+[] a aemet:WeatherStation ;
+    aemet:stationName "Merida station" ;
+    geo:location [ geo:alt "2200"^^xsd:float ;
+            geo:lat "8.6"^^xsd:float ;
+            geo:long "-71.13"^^xsd:float ;
+            geo:type geo:Point ] .
+
+[] a aemet:WeatherStation ;
+    aemet:stationName "WUR station" ;
+    geo:location [ geo:alt "11"^^xsd:float ;
+            geo:lat "52"^^xsd:float ;
+            geo:long "5.63"^^xsd:float ;
+            geo:type geo:Point ] .
+
+[] a aemet:AmbientProperty ;
+    rdfs:label "Mean temperature" .
+
