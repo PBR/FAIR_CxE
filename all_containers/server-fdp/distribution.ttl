@@ -4,7 +4,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://localhost:3131/FDP/distribution/Pheno_dataset_1_sparql.ttl> a dcat:Distribution ;
+<http://localhost:43131/FDP/distribution/Pheno_dataset_1_sparql.ttl> a dcat:Distribution ;
     dct:title "SPARQL endpoint for the phenotypic datasets associated with P. Hurtado's thesis"@en;
     dct:identifier "SPARQL" ;
     dct:hasVersion "1.0" ;

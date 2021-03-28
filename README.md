@@ -52,10 +52,42 @@ The contents of this repository are organized by container. The [all_containers]
    * [Dockerfile](./all_containers/server-fuseki/Dockerfile): File to help set up the docker container.
 
 4. [server-jupyter](./all_containers/server-jupyter): Files required for the container hosting the Jupyter notebooks.
-	* [requirements.txt](./all_containers/server-jupyter/requirements.txt) and [Dockerfile](./all_containers/server-jupyter/Dockerfile): File to help set up the docker container. [todo: remove unused files]
+	* [requirements.txt](./all_containers/server-jupyter/requirements.txt) and [Dockerfile](./all_containers/server-jupyter/Dockerfile): File to help set up the docker container.
 
 
 ## How to use
 
-This section describes how to run the Docker containers.
-[todo]
+These containers have been tested with [Docker](https://www.docker.com/) version 20.10.x. Make sure that a compatible version of the software is installed on your computer.
+
+
+You can start the relevant processes (jupyter notebook, FDP server, Fuseki SPARQL endpoint) with the `docker-compose up` command at the root of this repository.
+
+The services will become available at:
+
+- FDP server: [localhost:43131/FDP](http://localhost:43131/FDP)  
+  A user can explore the three implemented endpoints:
+  - Phenotypic data catalog: [localhost:43131/FDP/catalog/phenotypic.ttl](http://localhost:43131/FDP/catalog/phenotypic.ttl)
+  - Dataset 1 in the phenotypic data catalog: [localhost:43131/FDP/dataset/Dataset_1.ttl](http://localhost:43131/FDP/dataset/Dataset_1.ttl)
+  - SPARQL distribution of Dataset 1: [localhost:43131/FDP/distribution/Pheno_dataset_1_sparql.ttl](http://localhost:43131/FDP/distribution/Pheno_dataset_1_sparql.ttl)
+- Fuseki SPARQL server: [localhost:43030](http://localhost:43030/)  
+  Username / password: `admin` / `pw123`
+- Jupyter notebooks: [localhost:48888/?token=cxe](http://localhost:48888/?token=cxe)  
+  The password for the notebooks is `cxe`, though this should be automatically entered/skipped when using the above link.  
+  Two notebooks are available:
+  * [`Explore_data.ipynb`](./all_containers/common_files/Explore_data.ipynb): The notebook that pulls phenotypic and weather (meta)data from the SPARQL endpoint and creates visualizations.
+  * [`pheno_meta-data_excel_to_rdf.ipynb`](./all_containers/common_files/pheno_meta-data_excel_to_rdf.ipynb): The notebook that makes the conversion for MIAPPE metadata from the spreadsheet, and for data from tabular data into RDF.
+  
+
+When the Docker containers are created, the following will happen:
+- The `.ttl` files in [`data-generated`](./all_containers/common_files/data-generated) will be loaded into the SPARQL endpoint.
+- The FDP will become accessible.
+- The Juputer notebooks will become executable. They use the data in [`data-original`](./all_containers/common_files/data-original) to produce the files in [`data-generated`](./all_containers/common_files/data-generated).
+
+New data can be uploaded to the SPARQL endpoint through its GUI.
+  
+The containers can be stopped by pressing `Ctrl + C` twice, and then removed with `docker-compose down`.  
+The images created can be deleted with:
+
+* `FOR /f "tokens=*" %i IN ('docker images -q cxe') DO docker rmi %i` (on Windows)
+* `docker rmi $(docker images \-q test)` (otherwise)
+

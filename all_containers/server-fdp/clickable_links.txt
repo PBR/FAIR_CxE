@@ -1,0 +1,7 @@
+To make the URLs in the templates clickable with regex,
+- find:
+\&lt\;(.*?)\&gt\;
+- replace with:
+\&lt\;\<a href\=\"\1\"\>\1\<\/a\>\&gt\;
+
+This assumes that the html has been generated with the NppExport plugin on Notepad++.

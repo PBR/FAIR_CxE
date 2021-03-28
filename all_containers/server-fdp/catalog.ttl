@@ -8,7 +8,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 
-<http://localhost:3131/FDP/catalog/phenotypic> a dcat:Catalog ;
+<http://localhost:43131/FDP/catalog/phenotypic> a dcat:Catalog ;
     dcterms:hasVersion "0.1" ;
     rdf:label "Plant Breeding Phenotypic Catalog" ;
     dcterms:title "Plant Breeding Phenotypic Catalog" ;
@@ -16,19 +16,19 @@
     fdp:metadataIssued "2018-11-06T12:12:00.000000+00:00"^^xsd:dateTime ;
     fdp:metadataModified "2018-11-06T12:12:00.000000+00:00"^^xsd:dateTime ;
     dcat:themeTaxonomy <http://dbpedia.org/resource/Breeding> ;
-    fdp:metadataIdentifier <http://localhost:3131/FDP/catalog/phenotypic#metadataID> ;
+    fdp:metadataIdentifier <http://localhost:43131/FDP/catalog/phenotypic#metadataID> ;
     dcterms:conformsTo <http://rdf.biosemantics.org/fdp/shex/catalogMetadata> ;
-    dcterms:isPartOf <http://localhost:3131/FDP/> ;
+    dcterms:isPartOf <http://localhost:43131/FDP/> ;
     dcterms:language lang:en ;
     dcterms:publisher <http://orcid.org/0000-0002-4368-8058> ;
-    dcat:dataset <http://localhost:3131/FDP/dataset/Dataset_1.ttl> ,
-                 <http://localhost:3131/FDP/dataset/Dataset_2.ttl> ,
-                 <http://localhost:3131/FDP/dataset/Dataset_3.ttl> .
+    dcat:dataset <http://localhost:43131/FDP/dataset/Dataset_1.ttl> ,
+                 <http://localhost:43131/FDP/dataset/Dataset_2.ttl> ,
+                 <http://localhost:43131/FDP/dataset/Dataset_3.ttl> .
     
 <http://orcid.org/0000-0002-4368-8058> a foaf:Person ;
     <http://xmlns.com/foaf/0.1/name> "Richard Finkers" .
     
-<http://localhost:3131/FDP/catalog/phenotypic#metadataID> dcterms:identifier "49b181f6-4469-11e7-a919-92ebcb67fe33" ;
+<http://localhost:43131/FDP/catalog/phenotypic#metadataID> dcterms:identifier "49b181f6-4469-11e7-a919-92ebcb67fe33" ;
     a <http://purl.org/spar/datacite/ResourceIdentifier> .
 
     

@@ -5,7 +5,7 @@ services:
     build:
       context: ./all_containers
       dockerfile: ./server-fuseki/Dockerfile
-    image: test:fuseki
+    image: cxe:fuseki
     environment: 
       - ADMIN_PASSWORD=pw123
       - ENABLE_DATA_WRITE=true
@@ -22,7 +22,7 @@ services:
     build:
       context: ./all_containers
       dockerfile: ./server-jupyter/Dockerfile
-    image: test:jupyter
+    image: cxe:jupyter
     ports:
       - "48888:8888"
     networks: 
@@ -32,12 +32,12 @@ services:
     build:
       context: ./all_containers
       dockerfile: ./server-fdp/Dockerfile
-    image: test:fdp
+    image: cxe:fdp
     ports:
-      - "43131:3131"
+      - "43131:43131"
     networks: 
       - shared-network
 
 networks:
-  shared-network: 
+  shared-network:
     driver: bridge

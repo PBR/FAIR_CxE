@@ -12,24 +12,24 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 
 
-<http://localhost:3131/FDP/dataset/Dataset_1.ttl> a dcat:dataset ;
+<http://localhost:43131/FDP/dataset/Dataset_1.ttl> a dcat:dataset ;
     rdfs:label "CxE_Hurtado_data" ;
     dcterms:title "CxE_Hurtado_data" ;
     dcterms:hasVersion "0.1" ;
     dcterms:language lang:en ;
     dcat:theme <http://www.wikidata.org/entity/Q14947594> ;
-    fdp:metadataIdentifier <http://localhost:3131/FDP/dataset/Dataset_1.ttl#metadataID> ;
+    fdp:metadataIdentifier <http://localhost:43131/FDP/dataset/Dataset_1.ttl#metadataID> ;
     dcterms:modified "2018-11-06T12:13:00.000000+00:00"^^xsd:dateTime ;
     fdp:metadataIssued "2018-11-06T12:13:00.000000+00:00"^^xsd:dateTime ;
     fdp:metadataModified "2018-11-06T12:13:00.000000+00:00"^^xsd:dateTime ;
     dcterms:conformsTo <http://rdf.biosemantics.org/fdp/shex/datasetMetadata> ;
     dcterms:publisher <http://orcid.org/0000-0001-8209-1900> ;
-    dcterms:isPartOf <http://localhost:3131/FDP/catalog/phenotypic> ;
+    dcterms:isPartOf <http://localhost:43131/FDP/catalog/phenotypic> ;
     dcat:distribution 
-        <http://localhost:3131/FDP/distribution/Pheno_dataset_1_zip.ttl>,
-        <http://localhost:3131/FDP/distribution/Pheno_dataset_1_sparql.ttl> .
+        <http://localhost:43131/FDP/distribution/Pheno_dataset_1_zip.ttl>,
+        <http://localhost:43131/FDP/distribution/Pheno_dataset_1_sparql.ttl> .
     
-<http://localhost:3131/FDP/dataset/Dataset_1.ttl#metadataID> dcterms:identifier "49b1832c-4469-11e7-a919-92ebcb67fe33" ;
+<http://localhost:43131/FDP/dataset/Dataset_1.ttl#metadataID> dcterms:identifier "49b1832c-4469-11e7-a919-92ebcb67fe33" ;
     a <http://purl.org/spar/datacite/ResourceIdentifier> .
     
 <http://orcid.org/0000-0001-8209-1900> foaf:name "Eliana Papoutsoglou" ;

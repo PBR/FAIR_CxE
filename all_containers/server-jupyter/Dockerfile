@@ -5,7 +5,7 @@ USER root
 
 WORKDIR /usr/src/app
 COPY ./common_files .
-RUN ls
+
 RUN python3 -m pip install --upgrade pip ipython ipykernel
 RUN pip3 install --no-cache-dir -r requirements_jupyter.txt
 RUN pip3 install jupyter jupyter_contrib_nbextensions
@@ -23,4 +23,8 @@ ADD https://github.com/krallin/tini/releases/download/${TINI_VERSION}/tini /usr/
 RUN chmod +x /usr/bin/tini
 ENTRYPOINT ["/usr/bin/tini", "--"]
 
-CMD ["jupyter", "notebook", "--port=8888", "--no-browser", "--ip=0.0.0.0", "--allow-root"]
+
+RUN useradd -ms /bin/bash juser
+USER juser
+
+CMD ["jupyter", "notebook", "--port=8888", "--no-browser", "--ip=0.0.0.0", "--NotebookApp.token='cxe'"]

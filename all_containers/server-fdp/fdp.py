@@ -3,9 +3,10 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Not implemented.'
+    return 'Not implemented. You probably meant to go to /FDP.'
     
 @app.route('/FDP')
+@app.route('/fdp')
 def fdp():
     return render_template('./fdp.ttl.html')
     
@@ -26,4 +27,4 @@ def distribution():
     
     
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=3131)
+    app.run(host='0.0.0.0', port=43131, debug=False)
