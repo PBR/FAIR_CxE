@@ -24,7 +24,4 @@ RUN chmod +x /usr/bin/tini
 ENTRYPOINT ["/usr/bin/tini", "--"]
 
 
-RUN useradd -ms /bin/bash juser
-USER juser
-
-CMD ["jupyter", "notebook", "--port=8888", "--no-browser", "--ip=0.0.0.0", "--NotebookApp.token='cxe'"]
+CMD ["jupyter", "notebook", "--port=48888", "--no-browser", "--ip=0.0.0.0", "--NotebookApp.token=cxe", "--allow-root"]

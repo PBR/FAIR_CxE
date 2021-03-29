@@ -76,6 +76,9 @@ The services will become available at:
   Two notebooks are available:
   * [`Explore_data.ipynb`](./all_containers/common_files/Explore_data.ipynb): The notebook that pulls phenotypic and weather (meta)data from the SPARQL endpoint and creates visualizations.
   * [`pheno_meta-data_excel_to_rdf.ipynb`](./all_containers/common_files/pheno_meta-data_excel_to_rdf.ipynb): The notebook that makes the conversion for MIAPPE metadata from the spreadsheet, and for data from tabular data into RDF.
+
+
+Note that any changes made to the files on the docker containers are not persistent.
   
 
 When the Docker containers are created, the following will happen:

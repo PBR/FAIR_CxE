@@ -24,7 +24,7 @@ services:
       dockerfile: ./server-jupyter/Dockerfile
     image: cxe:jupyter
     ports:
-      - "48888:8888"
+      - "48888:48888"
     networks: 
       - shared-network
       
