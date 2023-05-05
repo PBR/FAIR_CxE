@@ -1,5 +1,7 @@
 # FAIR_CxE: CxE potato data integration
 
+[![DOI](https://zenodo.org/badge/344077075.svg)](https://zenodo.org/badge/latestdoi/344077075)
+
 This repository holds the files associated with Chapter 4 of E. Papoutsoglou's thesis. 
 
 You can find 3 docker containers for the following:
