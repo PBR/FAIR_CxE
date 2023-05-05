@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this dataset usefull, please cite it as below."
+authors:
+  - family-names: Papoutsoglou
+    given-names: Evangelia
+    orcid: https://orcid.org/0000-0001-8209-1900
+title: "Supplementary info and data for the manuscript: A case-study for improved reusability of plant phenotyping data with MIAPPE"
+version: 1.0
+doi: 10.5281/zenodo.7900967
+date-released: 2023-05-05
